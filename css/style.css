@@ -1,0 +1,351 @@
+@import 'fonts.css';
+
+body {
+  position: relative;
+}
+
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active,
+a:focus {
+  outline: none;
+}
+
+input[type="text"]:active {
+  visibility: hidden;
+}
+
+
+logo:hover {
+  outline: none;
+}
+
+.krim_Leto_ru {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(0, 49, 95);
+
+
+}
+
+.logo-orange {
+  color: rgb(218, 111, 91);
+}
+
+.navigation-item-link {
+  font-family: "Gilroy";
+  color: #212324;
+  font-size: 18px;
+}
+
+.menu__item a:hover {
+  text-decoration: none;
+  color: #332599;
+}
+
+.navigation-item-button {
+  font-family: "Gilroy";
+  font-size: 18px;
+  border-color: rgb(218, 111, 91);
+  border-style: solid;
+  background: white;
+}
+
+.header {
+  background-size: cover;
+  color: white;
+  background-image: url(../images/header.png);
+}
+
+h1 {
+
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+
+
+.krim-project {
+  font-family: "Gilroy";
+}
+
+.choice {
+  margin-top: 16px;
+}
+
+.form-serch {
+  margin-top: 18px;
+}
+
+.choice__button {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(218, 111, 91);
+  border-color: rgb(218, 111, 91);
+  border-style: solid;
+}
+
+.about__title {
+  font-family: "Gilroy";
+  font-size: 36px;
+  color: rgb(33, 35, 36);
+  font-weight: bold;
+}
+
+.line {
+  border-bottom: 2px solid rgb(218, 111, 91);
+  margin: 10px 0;
+}
+
+.line-grey {
+  border-bottom: 2px solid rgb(105, 110, 120);
+  margin: 10px 0;
+}
+
+
+.objects {}
+
+.towns-group {
+  margin-top: 5px;
+  margin-bottom: 28px;
+}
+
+.town {
+  font-family: "Gilroy";
+  font-size: 16px;
+  color: rgb(38, 142, 194);
+  font-weight: normal;
+}
+
+.about_h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text {
+  margin-top: 0;
+  font-size: 16px;
+  color: rgb(33, 35, 36);
+  line-height: 1.5;
+
+}
+
+.objects__category__type {
+  font-size: 18px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+  border-color: rgb(98, 96, 104);
+  border-style: solid;
+}
+
+.cards {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url(../images/fonmore.png);
+}
+
+.cards__popular__object {
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  max-width: 100%;
+  height: auto;
+
+}
+
+..cards__popular__object:hover {
+  box-shadow: 0px 24px 57px 0px rgb(0, 0, 0);
+}
+
+
+.cards__popular__object__adress {
+  font-size: 14px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+
+}
+
+
+.cards__popular__object__price {
+  font-size: 22px;
+  font-family: "Gilroy";
+  color: rgb(218, 111, 91);
+  font-weight: bold;
+
+}
+
+.cards__popular__object__guest {
+  font-size: 14px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+}
+
+.footer-info {
+  padding: 10px 0;
+  background-color: black;
+}
+
+.seo-text {
+  font-size: 16px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+  line-height: 1.5;
+}
+
+
+.down-logo {
+  font-size: 36px;
+  font-family: "Gilroy";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-doc {
+  font-size: 16px;
+  font-family: "Gilroy";
+  color: rgb(239, 239, 239);
+  line-height: 1.5;
+}
+
+.seo-article {
+  font-size: 22px;
+  color: rgb(33, 35, 36);
+}
+
+.logofooter {
+  color: black;
+
+}
+
+
+
+.down-logo {
+  color: rgb(255, 255, 255);
+}
+
+.logo:hover {
+  outline: none;
+}
+
+
+.fa,
+.far {
+  color: rgb(218, 111, 91);
+}
+
+.btn_date {
+  background: white;
+  border: solid rgb(207, 210, 213) 1px;
+  border-left: 0;
+}
+
+.Кол_во_гостей {
+  font-size: 16px;
+  font-family: "Gilroy";
+  color: rgb(33, 35, 36);
+  position: absolute;
+  left: 973.609px;
+  top: 341.603px;
+  z-index: 18;
+}
+
+.form-control:active {
+  border: none;
+}
+
+.show-all {
+  font-size: 16px;
+  color: rgb(218, 111, 91);
+}
+
+
+
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-color: transparent !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
+
+.image-krim {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-hover * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+.image-hover {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  background: #fff;
+
+}
+
+.image-hover a {
+  text-decoration: none
+}
+
+
+.img-rotate-y {
+  transition: all 1.2s ease-in-out;
+  -webkit-transition: all 1.3s ease-in-out;
+  -moz-transition: all 1.3s ease-in-out;
+  -ms-transition: all 1.3s ease-in-out;
+  -o-transition: all 1.3s ease-in-out;
+}
+
+.img-rotate-y:hover {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+
+
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: rgb(218, 111, 91);
+  ;
+  ;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
