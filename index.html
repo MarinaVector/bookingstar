@@ -14,9 +14,6 @@
   <link rel="stylesheet" href="fontawesome/css/all.min.css">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="js/bootstrap.js"></script>
-
-
-
 </head>
 
 <body class="krim-project">
@@ -81,11 +78,10 @@
             </div>
           </div>
           <div class="col-lg-2 col-12 mb-4">
-            <input type="text" class="form-control big_input border-0" name="somename" placeholder="Кол-во гостей">
-            <input type="text" class="form-control small_input border-0" name="somename" placeholder="Количество гостей">
+            <input type="text" class="form-control" id="input_guests" placeholder="Количество гостей">
           </div>
           <div class="col-lg-2 col-12 mb-4">
-            <button type="submit" class="btn px-xl-4  w-100 choice__button ">Подобрать</button>
+            <button type="submit" class="btn px-lg-4  w-100 choice__button ">Подобрать</button>
           </div>
 
         </div>
@@ -171,36 +167,35 @@
                     Смотреть все</ins>
                 </a>
               </div>
-
             </div>
-
-            <div class="col-lg-12 col-12 pt-4">
-              <h2 class="about__title">Такой разный Крым</h2>
-              <div class="col-xl-6 line"></div>
-              <p class="te text-justify">Для многих людей Крым&nbsp;&mdash;
-                это море и&nbsp;горы. Не&nbsp;все знают, что большую часть территории
-                (почти 63%) занимает степь. Именно в&nbsp;степной зоне расположена
-                столица&nbsp;&mdash; город Симферополь. Здесь&nbsp;же находится и&nbsp;столица
-                бывшего Крымского ханства Бахчисарай со&nbsp;множеством уникальных памятников
-                древности и&nbsp;пещерными городами. Еще к&nbsp;данному региону относятся и&nbsp;такие
-                курортные города, как Евпатория и&nbsp;Саки, а&nbsp;так&nbsp;же полуостров Керчь.
-                Путешествуя по&nbsp;степным районам, трудно поверить, что стоит преодолеть всего
-                сотню километров, и&nbsp;взору откроется совсем иной Крым&nbsp;&mdash; его южное побережье
-                с&nbsp;горами и&nbsp;буйной средиземноморской растительностью. Западное побережье радует
-                глаз красивейшими скалистыми берегами: мыс Тарханкут, а&nbsp;южнее него&nbsp;&mdash;
-                мыс Айя с&nbsp;живописным пляжем, который любители уединенного отдыха называют
-                Затерянным миром.</p>
+            <div class="row">
+              <div class="col-lg-12 col-12 pt-4">
+                <h2 class="about__title">Такой разный Крым</h2>
+                <div class="col-xl-6 line"></div>
+                <p class="text-justify">Для многих людей Крым&nbsp;&mdash;
+                  это море и&nbsp;горы. Не&nbsp;все знают, что большую часть территории
+                  (почти 63%) занимает степь. Именно в&nbsp;степной зоне расположена
+                  столица&nbsp;&mdash; город Симферополь. Здесь&nbsp;же находится и&nbsp;столица
+                  бывшего Крымского ханства Бахчисарай со&nbsp;множеством уникальных памятников
+                  древности и&nbsp;пещерными городами. Еще к&nbsp;данному региону относятся и&nbsp;такие
+                  курортные города, как Евпатория и&nbsp;Саки, а&nbsp;так&nbsp;же полуостров Керчь.
+                  Путешествуя по&nbsp;степным районам, трудно поверить, что стоит преодолеть всего
+                  сотню километров, и&nbsp;взору откроется совсем иной Крым&nbsp;&mdash; его южное побережье
+                  с&nbsp;горами и&nbsp;буйной средиземноморской растительностью. Западное побережье радует
+                  глаз красивейшими скалистыми берегами: мыс Тарханкут, а&nbsp;южнее него&nbsp;&mdash;
+                  мыс Айя с&nbsp;живописным пляжем, который любители уединенного отдыха называют
+                  Затерянным миром.</p>
+              </div>
             </div>
           </div>
 
 
-          <div class="col-lg-4 col-12 mt-lg-5 pt-lg-5">
-            <p> <img class="mt-xl-5 w-100 h-100 image-hover img-rotate-y" src="images/shadow.png" alt="Бронирования в Крыму">
+          <div class="col-lg-4 col-12 pt-lg-5">
+            <p> <img class="image-nature" src="images/shadow.png" alt="Бронирования в Крыму">
           </div>
         </div>
       </div>
     </section>
-
     <section class="cards py-5">
       <div class="container">
         <div class="row">
@@ -222,7 +217,6 @@
                 <div class="info">
                   <div class="row">
                     <div class="col-xl-6 px-0">
-
                       <p class="card-text">
                         <small class="cards__popular__object__price">от&nbsp;1250 руб</small></p>
                     </div>
@@ -243,7 +237,6 @@
                 <div class="info">
                   <div class="row">
                     <div class="col-xl-6 px-0">
-
                       <p class="card-text">
                         <small class="cards__popular__object__price">от&nbsp;1250 руб</small></p>
                     </div>
@@ -263,7 +256,6 @@
                 <div class="info">
                   <div class="row">
                     <div class="col-xl-6 px-0">
-
                       <p class="card-text">
                         <small class="cards__popular__object__price">от&nbsp;1250 руб</small></p>
                     </div>
@@ -300,7 +292,6 @@
               <li data-target="#slider" data-slide-to="1" class="static mx-2"></li>
               <li data-target="#slider" data-slide-to="2" class="static mx-2"></li>
               <li data-target="#slider" data-slide-to="3" class="static"></li>
-
             </ol>
           </div>
         </div>
@@ -309,7 +300,6 @@
 
 
     <section class="articles" id="articles">
-
       <article class="seo-block">
         <div class="container">
           <div class="row">
@@ -319,7 +309,6 @@
             </div>
           </div>
         </div>
-
         <div class="container">
           <div class="row">
             <div class="col-lg-7 col-12">
@@ -331,26 +320,17 @@
               <img src="images/more.png" class="image-krim" alt="Крымские скалы">
               <div class="col-12 d-lg-none mt-5 line-grey"></div>
             </div>
-
-
             <div class="col-lg-6 col-12">
-
               <img src="images/buhta2.png" class="image-krim mt-3" alt="Крымская бухта">
               <h2 class="seo-article pt-1">Название статьи</h2>
             </div>
             <div class="col-lg-6 col-12">
               <img src="images/buhta.png" class="image-krim mt-3" alt="Крымcкое побережье">
               <h2 class="seo-article pt-1">Название статьи</h2>
-
             </div>
           </div>
         </div>
-
-
       </article>
-
-
-
       <div class="container">
         <div class="row">
           <div class="col-xl-4 col-12 mx-auto pt-3 pb-5">
@@ -358,18 +338,8 @@
           </div>
         </div>
       </div>
-
-
-
-
     </section>
   </main>
-
-
-
-
-
-
 
   <footer class="footer-info mt-3">
     <div class="container">
@@ -382,7 +352,6 @@
               </a>
             </li>
           </ul>
-
 
         </div>
         <div class="col-xl-3 col-12">
@@ -404,7 +373,6 @@
         </div>
       </div>
     </div>
-
 
   </footer>
 

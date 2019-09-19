@@ -289,35 +289,14 @@ button:focus,
   background: #fff;
 }
 
-.image-hover a {
-  text-decoration: none
-}
-
-
-.img-rotate-y {
-  -webkit-transition: all 1.3s ease-in-out;
-  -moz-transition: all 1.3s ease-in-out;
-  -ms-transition: all 1.3s ease-in-out;
-  -o-transition: all 1.3s ease-in-out;
-  transition: all 1.2s ease-in-out;
-}
-
-.img-rotate-y:hover {
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
 
 .carousel-indicators li {
   width: 20px;
   height: 20px;
   border-radius: 100%;
   background-color: rgb(218, 111, 91);
-  ;
-  ;
 }
+
 
 .carousel-indicators {
   bottom: -50px;
@@ -343,5 +322,9 @@ button:focus,
     display: inline-block;
     margin: 0;
     width: 360px;
+  }
+
+  .footer-doc:hover {
+    color: rgb(218, 111, 91);
   }
 }
