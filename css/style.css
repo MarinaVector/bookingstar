@@ -8,8 +8,8 @@ body {
 ul,
 li {
   display: block;
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -32,12 +32,10 @@ logo:hover {
 }
 
 .krim_Leto_ru {
-  font-size: 36px;
-  font-weight: bold;
-  text-transform: uppercase;
   color: rgb(0, 49, 95);
-
-
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .logo-orange {
@@ -45,32 +43,38 @@ logo:hover {
 }
 
 .navigation-item-link {
-  font-family: "Gilroy";
   color: #212324;
   font-size: 18px;
+  font-family: "Gilroy";
 }
 
 .menu__item a:hover {
-  text-decoration: none;
   color: #332599;
+  text-decoration: none;
 }
 
 .navigation-item-button {
-  font-family: "Gilroy";
-  font-size: 18px;
-  border-color: rgb(218, 111, 91);
   border-style: solid;
+  border-color: rgb(218, 111, 91);
   background: white;
+  font-size: 18px;
+  font-family: "Gilroy";
 }
 
 .header {
+  height: 60vh;
+  background-image: url(../images/header.png);
   background-size: cover;
   color: white;
-  background-image: url(../images/header.png);
+}
+
+.header-catalog {
+  background-image: url(../images/Krim-town.png);
+  background-size: cover;
+  color: white;
 }
 
 h1 {
-
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
@@ -90,30 +94,27 @@ h1 {
 }
 
 .choice__button {
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: rgb(218, 111, 91);
-  border-color: rgb(218, 111, 91);
   border-style: solid;
+  background-color: rgb(218, 111, 91);
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .about__title {
-  font-family: "Gilroy";
-  font-size: 36px;
   color: rgb(33, 35, 36);
   font-weight: bold;
 }
 
 .line {
-  border-bottom: 2px solid rgb(218, 111, 91);
   margin: 10px 0;
+  border-bottom: 2px solid rgb(218, 111, 91);
 }
 
 .line-grey {
-  border-bottom: 2px solid rgb(105, 110, 120);
   margin: 10px 0;
+  border-bottom: 2px solid rgb(105, 110, 120);
 }
 
 
@@ -125,10 +126,10 @@ h1 {
 }
 
 .town {
-  font-family: "Gilroy";
-  font-size: 16px;
   color: rgb(38, 142, 194);
   font-weight: normal;
+  font-size: 16px;
+  font-family: "Gilroy";
 }
 
 .about_h3 {
@@ -138,61 +139,51 @@ h1 {
 
 .text {
   margin-top: 0;
-  font-size: 16px;
   color: rgb(33, 35, 36);
+  font-size: 16px;
   line-height: 1.5;
-
 }
 
 .objects__category__type {
+  border-style: solid;
+  border-color: rgb(98, 96, 104);
+  color: rgb(33, 35, 36);
   font-size: 18px;
   font-family: "Gilroy";
-  color: rgb(33, 35, 36);
-  border-color: rgb(98, 96, 104);
-  border-style: solid;
 }
 
 .cards {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   background-color: white;
   background-image: url(../images/fonmore.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cards__popular__object {
-  background-color: rgb(255, 255, 255);
-  border: 0;
   max-width: 100%;
   height: auto;
-
-}
-
-..cards__popular__object:hover {
-  box-shadow: 0px 24px 57px 0px rgb(0, 0, 0);
+  border: 0;
+  background-color: rgb(255, 255, 255);
 }
 
 
 .cards__popular__object__adress {
+  color: rgb(33, 35, 36);
   font-size: 14px;
   font-family: "Gilroy";
-  color: rgb(33, 35, 36);
-
 }
 
 
 .cards__popular__object__price {
-  font-size: 22px;
-  font-family: "Gilroy";
   color: rgb(218, 111, 91);
   font-weight: bold;
-
+  font-size: 22px;
 }
 
 .cards__popular__object__guest {
-  font-size: 14px;
-  font-family: "Gilroy";
   color: rgb(33, 35, 36);
+  font-size: 14px;
 }
 
 .footer-info {
@@ -201,38 +192,33 @@ h1 {
 }
 
 .seo-text {
-  font-size: 16px;
-  font-family: "Gilroy";
   color: rgb(33, 35, 36);
+  font-size: 16px;
   line-height: 1.5;
 }
 
 
 .down-logo {
-  font-size: 36px;
-  font-family: "Gilroy";
   color: rgb(255, 255, 255);
-  font-weight: bold;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .footer-doc {
-  font-size: 16px;
-  font-family: "Gilroy";
   color: rgb(239, 239, 239);
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .seo-article {
-  font-size: 22px;
   color: rgb(33, 35, 36);
+  font-size: 22px;
 }
 
 .logofooter {
   color: black;
-
 }
-
 
 
 .down-logo {
@@ -250,30 +236,20 @@ h1 {
 }
 
 .btn_date {
-  background: white;
   border: solid rgb(207, 210, 213) 1px;
   border-left: 0;
+  background: white;
 }
 
-.Кол_во_гостей {
-  font-size: 16px;
-  font-family: "Gilroy";
-  color: rgb(33, 35, 36);
-  position: absolute;
-  left: 973.609px;
-  top: 341.603px;
-  z-index: 18;
-}
 
 .form-control:active {
   border: none;
 }
 
 .show-all {
-  font-size: 16px;
   color: rgb(218, 111, 91);
+  font-size: 16px;
 }
-
 
 
 button.active.focus,
@@ -289,9 +265,9 @@ button:focus,
 .btn:active:focus,
 .btn:focus {
   outline: 0 !important;
-  outline-color: transparent !important;
   outline-width: 0 !important;
   outline-style: none !important;
+  outline-color: transparent !important;
   box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
 }
 
@@ -301,8 +277,8 @@ button:focus,
 }
 
 .image-hover * {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box
 }
 
@@ -311,7 +287,6 @@ button:focus,
   display: inline-block;
   overflow: hidden;
   background: #fff;
-
 }
 
 .image-hover a {
@@ -320,22 +295,20 @@ button:focus,
 
 
 .img-rotate-y {
-  transition: all 1.2s ease-in-out;
   -webkit-transition: all 1.3s ease-in-out;
   -moz-transition: all 1.3s ease-in-out;
   -ms-transition: all 1.3s ease-in-out;
   -o-transition: all 1.3s ease-in-out;
+  transition: all 1.2s ease-in-out;
 }
 
 .img-rotate-y:hover {
-  transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
-
-
 
 .carousel-indicators li {
   width: 20px;
@@ -348,4 +321,27 @@ button:focus,
 
 .carousel-indicators {
   bottom: -50px;
+}
+
+
+.small_input {
+  display: block;
+}
+
+.big_input {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .small_input {
+    display: none;
+    margin: 0 auto;
+    width: 96%;
+  }
+
+  .big_input {
+    display: inline-block;
+    margin: 0;
+    width: 360px;
+  }
 }
