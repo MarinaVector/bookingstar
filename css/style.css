@@ -32,6 +32,17 @@ input[type="text"]:active {
   visibility: hidden;
 }
 
+.Прямоугольник_6_копия_4 {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 24px 57px 0px rgb(0, 0, 0);
+  position: absolute;
+  left: 978px;
+  top: 896px;
+  width: 252px;
+  height: 225px;
+  z-index: 128;
+}
+
 
 logo:hover {
   outline: none;
@@ -77,8 +88,8 @@ logo:hover {
 }
 
 .choice__button:hover {
- background-color: rgb(206, 103, 83) !important;
- color: white !important;
+  background-color: rgb(206, 103, 83) !important;
+  color: white !important;
 }
 
 .input-group:hover {
@@ -194,11 +205,13 @@ h1 {
 }
 
 .cards__popular__object {
-  height: auto;
-  border: 0;
-  background-color: rgb(255, 255, 255);
+
+  background-position: center center;
 }
 
+.bg-white {
+  min-width: 280px;
+}
 
 .cards__popular__object__adress {
   color: rgb(33, 35, 36);
@@ -363,10 +376,13 @@ button:focus,
 
 .small_input {
   display: block;
+  border-radius: 4px 0 0 4px !important;
+
 }
 
 .big_input {
   display: none;
+  border-radius: 4px 0 0 4px !important;
 }
 
 @media only screen and (min-width: 768px) {
